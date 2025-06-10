@@ -427,7 +427,7 @@ def send_welcome_email(email: str, name: str, user_type: str):
                 </p>
                 <div style="margin-top: 20px;">
                     <p style="color: #6b7280; font-size: 14px; margin: 0;">
-                        Ready to get started? <a href="http://localhost:5173/login" style="color: #10b981; text-decoration: none; font-weight: bold;">Login to Your Account</a>
+                        Ready to get started? <a href="https://worker-frontend-omega.vercel.app//login" style="color: #10b981; text-decoration: none; font-weight: bold;">Login to Your Account</a>
                     </p>
                 </div>
             </div>
@@ -984,7 +984,7 @@ def send_job_match_email(email: str, job: dict, match_score: float):
                 
                 <!-- Call to Action -->
                 <div style="text-align: center; margin: 30px 0;">
-                    <a href="http://localhost:5173/job/{job.get('id', '')}" 
+                    <a href="https://worker-frontend-omega.vercel.app//job/{job.get('id', '')}" 
                        style="display: inline-block; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 6px rgba(16, 185, 129, 0.3);">
                         🔍 View Full Job Details & Apply
                     </a>
@@ -994,8 +994,8 @@ def send_job_match_email(email: str, job: dict, match_score: float):
                 <div style="text-align: center; margin: 20px 0;">
                     <p style="color: #6b7280; font-size: 14px; margin: 0;">
                         Or copy this link: 
-                        <a href="http://localhost:5173/job/{job.get('id', '')}" style="color: #10b981; text-decoration: none; font-weight: 500;">
-                            http://localhost:5173/job/{job.get('id', '')}
+                        <a href="https://worker-frontend-omega.vercel.app//job/{job.get('id', '')}" style="color: #10b981; text-decoration: none; font-weight: 500;">
+                            https://worker-frontend-omega.vercel.app//job/{job.get('id', '')}
                         </a>
                     </p>
                 </div>
@@ -1030,9 +1030,9 @@ def send_job_match_email(email: str, job: dict, match_score: float):
                 </p>
                 <div style="margin-top: 15px;">
                     <p style="color: #6b7280; font-size: 13px; margin: 0;">
-                        <a href="http://localhost:5173" style="color: #10b981; text-decoration: none;">Visit Workers Globe</a> | 
-                        <a href="http://localhost:5173/login" style="color: #10b981; text-decoration: none;">Login</a> |
-                        <a href="http://localhost:5173/profile" style="color: #10b981; text-decoration: none;">Update Profile</a>
+                        <a href="https://worker-frontend-omega.vercel.app/" style="color: #10b981; text-decoration: none;">Visit Workers Globe</a> | 
+                        <a href="https://worker-frontend-omega.vercel.app//login" style="color: #10b981; text-decoration: none;">Login</a> |
+                        <a href="https://worker-frontend-omega.vercel.app//profile" style="color: #10b981; text-decoration: none;">Update Profile</a>
                     </p>
                 </div>
             </div>
@@ -1105,7 +1105,7 @@ def send_application_notification_email(email: str, job: dict, total_applicants:
                 
                 <!-- Call to Action -->
                 <div style="text-align: center; margin: 30px 0;">
-                    <a href="http://localhost:5173/login" 
+                    <a href="https://worker-frontend-omega.vercel.app//login" 
                        style="display: inline-block; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 6px rgba(16, 185, 129, 0.3);">
                         🔐 Login to View Application Details
                     </a>
@@ -1142,8 +1142,8 @@ def send_application_notification_email(email: str, job: dict, total_applicants:
                 </p>
                 <div style="margin-top: 15px;">
                     <p style="color: #6b7280; font-size: 13px; margin: 0;">
-                        <a href="http://localhost:5173" style="color: #10b981; text-decoration: none;">Visit Workers Globe</a> | 
-                        <a href="http://localhost:5173/login" style="color: #10b981; text-decoration: none;">Login</a>
+                        <a href="https://worker-frontend-omega.vercel.app/" style="color: #10b981; text-decoration: none;">Visit Workers Globe</a> | 
+                        <a href="https://worker-frontend-omega.vercel.app//login" style="color: #10b981; text-decoration: none;">Login</a>
                     </p>
                 </div>
             </div>
@@ -1304,11 +1304,11 @@ def send_job_completion_email(email: str, job_title: str, rating: int, feedback:
                     
                     <!-- Call to Action -->
                     <div style="text-align: center; margin: 30px 0;">
-                        <a href="http://localhost:5173/login" 
+                        <a href="https://worker-frontend-omega.vercel.app//login" 
                            style="display: inline-block; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 6px rgba(16, 185, 129, 0.3); margin-right: 15px;">
                             🔍 Find More Jobs
                         </a>
-                        <a href="http://localhost:5173/profile" 
+                        <a href="https://worker-frontend-omega.vercel.app//profile" 
                            style="display: inline-block; background: #6b7280; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
                             📊 View Profile
                         </a>
@@ -1359,11 +1359,11 @@ def send_job_completion_email(email: str, job_title: str, rating: int, feedback:
                         This email was sent to {email}
                     </p>
                     <p style="color: #9ca3af; font-size: 12px; margin: 0;">
-                        © 2024 Workers Globe. All rights reserved.
+                        © 2025 Workers Globe. All rights reserved.
                     </p>
                     <div style="margin-top: 20px;">
                         <p style="color: #6b7280; font-size: 14px; margin: 0;">
-                            <a href="http://localhost:5173" style="color: #10b981; text-decoration: none; font-weight: bold;">Continue Your Journey on Workers Globe</a>
+                            <a href="https://worker-frontend-omega.vercel.app/" style="color: #10b981; text-decoration: none; font-weight: bold;">Continue Your Journey on Workers Globe</a>
                         </p>
                     </div>
                 </div>
