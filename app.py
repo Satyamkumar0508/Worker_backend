@@ -34,7 +34,7 @@ app = FastAPI(title="Village Jobs API", debug=True)
 # Configure CORS with more permissive settings for development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:3000", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:3000", "http://127.0.0.1:5173","https://worker-frontend-omega.vercel.app","https://worker-backend-7fyo.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
