@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pymongo
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+email-validator
+PyJWT
+bcrypt
+python-jose[cryptography]  # For JWT handling (alternative: PyJWT)
+flask
+flask-cors
+werkzeug
